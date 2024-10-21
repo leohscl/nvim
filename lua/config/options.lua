@@ -32,3 +32,10 @@ vim.api.nvim_create_autocmd('LspAttach', {
 })
 
 vim.opt.wrap = false
+
+require'cmp'.setup {
+  sources = {
+    { name = 'path' },
+    { name = 'nvim_lsp' }
+  }
+}

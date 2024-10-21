@@ -1,4 +1,4 @@
 require("config.lazy")
-require("core.mappings")
-require("core.options")
+require("config.mappings")
+require("config.options")
 

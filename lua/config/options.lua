@@ -16,3 +16,5 @@ vim.opt.signcolumn = 'yes'
 
 -- save undo hisory 
 vim.opt.undofile = true
+-- C-V
+vim.opt.clipboard = 'unnamedplus'

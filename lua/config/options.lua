@@ -17,5 +17,8 @@ vim.opt.signcolumn = 'yes'
 -- save undo hisory 
 vim.opt.undofile = true
 
+-- clipboard
+vim.opt.clipboard = 'unnamedplus'
+
 -- for bufferline
 vim.opt.termguicolors = true

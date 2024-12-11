@@ -16,3 +16,6 @@ vim.opt.signcolumn = 'yes'
 
 -- save undo hisory 
 vim.opt.undofile = true
+
+-- for bufferline
+vim.opt.termguicolors = true
